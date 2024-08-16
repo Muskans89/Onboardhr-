@@ -8,7 +8,7 @@ const BeyondLinkedInSection = () => {
       style={{ backgroundImage: `url(${backgroundImg})` }}
     >
       {/* Content */}
-      <div className="container mx-auto text-center text-white">
+      <div className="container mx-auto text-center text-white px-4"> {/* Added px-4 for mobile padding */}
         <h2 className="text-4xl font-bold mb-9">We Go Beyond LinkedIn</h2>
         <p className="text-lg mb-12">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur metus ut est facilisis, non interdum metus ultrices.

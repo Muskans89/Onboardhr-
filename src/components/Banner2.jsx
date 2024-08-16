@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import contingencyImage from '../assets/bg.png'; // Adjust the path as necessary
-import executiveImage from '../assets/bg.png'; // Adjust the path as necessary
-import rpoImage from '../assets/bg.png'; // Adjust the path as necessary
+import contingencyImage from '../assets/background1.jpg'; // Adjust the path as necessary
+import executiveImage from '../assets/background1.jpg'; // Adjust the path as necessary
+import rpoImage from '../assets/background1.jpg'; // Adjust the path as necessary
 
 const TabSection = () => {
   const [activeTab, setActiveTab] = useState('contingency');
 
   return (
-    <section className="container mx-auto py-12">
+    <section className="container mx-auto py-12 px-4"> {/* Added px-4 for padding on mobile */}
       <div className="text-center mb-8">
         <h2 className="text-4xl font-bold mb-4">Flexible Technical Recruiting Models</h2>
         <p className="text-lg text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>

@@ -3,13 +3,13 @@ import React from 'react';
 const ApproachSection = () => {
   return (
     <section className="bg-gray-50 py-12">
-      <div className="container mx-auto text-center mb-12">
+      <div className="container mx-auto text-center mb-12 px-4"> {/* Added px-4 for padding on mobile */}
         <h2 className="text-4xl font-bold mb-4">Lorem Ipsum Approach</h2>
         <p className="text-lg text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo, nisi a gravida tempus, nunc purus bibendum nulla, in suscipit arcu justo non est.</p>
       </div>
 
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div className="text-center md:text-left">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-4"> {/* Added px-4 for padding on mobile */}
+        <div className="text-left md:text-left">
           <h3 className="text-2xl font-bold mb-4">Lorem Ipsum</h3>
           <ul className="list-none space-y-2">
             <li className="flex items-center">
@@ -33,7 +33,7 @@ const ApproachSection = () => {
           </ul>
         </div>
 
-        <div className="text-center md:text-left">
+        <div className="text-left md:text-left">
           <h3 className="text-2xl font-bold mb-4">Lorem Ipsum</h3>
           <ul className="list-none space-y-2">
             <li className="flex items-center">
@@ -57,7 +57,7 @@ const ApproachSection = () => {
           </ul>
         </div>
 
-        <div className="text-center md:text-left">
+        <div className="text-left md:text-left">
           <h3 className="text-2xl font-bold mb-4">Lorem Ipsum</h3>
           <ul className="list-none space-y-2">
             <li className="flex items-center">
